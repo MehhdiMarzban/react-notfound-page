@@ -2,6 +2,8 @@
 
 The `NotFound` component is a React functional component that displays a 404 Not Found message along with an animation and an optional button.
 
+![A description of the GIF](./react-notfound-page.gif)
+
 ## Installation
 
 ```bash
