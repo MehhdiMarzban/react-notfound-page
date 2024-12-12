@@ -39,16 +39,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-notfound-component",
+  "name": "react-notfound-page",
   "author": "mehdi marzban",
-  "module": "dist/react-notfound-component.esm.js",
+  "module": "dist/react-notfound-page.esm.js",
   "size-limit": [
     {
-      "path": "dist/react-notfound-component.cjs.production.min.js",
+      "path": "dist/react-notfound-page.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/react-notfound-component.esm.js",
+      "path": "dist/react-notfound-page.esm.js",
       "limit": "10 KB"
     }
   ],
