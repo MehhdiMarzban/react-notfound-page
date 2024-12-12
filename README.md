@@ -1,12 +1,13 @@
 # NotFound Component
 
-The `NotFound` component is a React functional component that displays a 404 Not Found message along with an animation and an optional button. 
+The `NotFound` component is a React functional component that displays a 404 Not Found message along with an animation and an optional button.
 
 ## Installation
 
 ```bash
 npm i react-notfound-page
 ```
+
 ## Props
 
 The `NotFound` component accepts the following props:
@@ -45,6 +46,7 @@ const AppNotFoundPage = () => {
 
 export default AppNotFoundPage;
 ```
+
 ## License
 
 This component is open source and available under the [MIT License](LICENSE).
