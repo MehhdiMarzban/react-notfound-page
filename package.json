@@ -1,0 +1,75 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "notfound page",
+    "notfound component",
+    "react",
+    "notfound",
+    "404"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "react-notfound",
+  "author": "mehdi marzban",
+  "module": "dist/react-notfound.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/react-notfound.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/react-notfound.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^11.1.6",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "husky": "^9.1.7",
+    "identity-obj-proxy": "^3.0.0",
+    "postcss": "^8.4.49",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "size-limit": "^11.1.6",
+    "tailwindcss": "^3.4.16",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "lottie-react": "^2.4.0"
+  }
+}
