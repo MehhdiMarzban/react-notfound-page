@@ -26,7 +26,8 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=16",
+    "lottie-react": "^2.4.0"
   },
   "husky": {
     "hooks": {
@@ -68,8 +69,5 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.8.1",
     "typescript": "^5.7.2"
-  },
-  "dependencies": {
-    "lottie-react": "^2.4.0"
   }
 }
